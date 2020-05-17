@@ -14,7 +14,6 @@ def main():
     cur_num = last_num
 
     # Enter number and start sequence counting
-
     while cur_num >= last_num:
         sequence += 1
         last_num = cur_num
