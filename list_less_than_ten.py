@@ -28,9 +28,17 @@ def main():
         else:
             bigger_list.append(i)
     
-    # Print lists
+    # Print results
     print(lesser_list)
     print(bigger_list)
+
+    # List comprehension for the for loop above
+    comp_lesser_list = [i for i in main_list if i < 5]
+    comp_bigger_list = [i for i in main_list if i >= 5]
+
+     # Print results
+    print(comp_lesser_list)
+    print(comp_bigger_list)
 
 
 if __name__ == '__main__':
