@@ -3,7 +3,9 @@
 
 """
 Filename: list_less_than_ten.py
-Application prints out all the elements of the list that are less than 5.
+(1) Application prints out all the elements of the list that are less than 5;
+(2) Makes a new list that has all the elements less than 5 from the main list in it and prints out this new list; and,
+(3) Makes a new list that has all the elements greater than or equal to 5 from the main list in it and prints out this new list.
 """
 
 def main():
